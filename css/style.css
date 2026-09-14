@@ -1,12 +1,13 @@
+/*Eliminar default*/
 * { 
    box-sizing: border-box; 
 }
-	body {
-    margin: 0;
+body {
+      margin: 0;
  }	
 ul, ol {
    padding: 0;
- }
+}
 li {
    list-style-type: none; 
 }
@@ -14,3 +15,30 @@ li {
 a { 
   text-decoration: none; color: #000; 
 }
+
+/*CSS del index.html*/
+
+
+
+
+/*CSS del product.html*/
+
+
+
+
+/*CSS del category.html*/
+
+
+
+
+/*CSS del login.html*/
+
+
+
+
+/*CSS del reister.html*/
+
+
+
+
+/*CSS del search-results.html*/
