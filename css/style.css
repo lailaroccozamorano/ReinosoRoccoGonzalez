@@ -1,23 +1,30 @@
 /*Eliminar default*/
-* { 
-   box-sizing: border-box; 
-}
-body {
-      margin: 0;
- }	
-ul, ol {
-   padding: 0;
-}
-li {
-   list-style-type: none; 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-a { 
-  text-decoration: none; color: #000; 
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+a{
+   text-decoration: none;
 }
 
 /*CSS del index.html*/
 
+body{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+}
 
 
 
