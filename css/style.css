@@ -23,11 +23,48 @@ body{
     background-position: center;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+header img {
+    width: 150px;
+}
 
+nav ul {
+    display: flex;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 250px;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 30%;
+}
+
+article img {
+    width: 90%;
+}
 /*CSS del product.html*/
 
 
