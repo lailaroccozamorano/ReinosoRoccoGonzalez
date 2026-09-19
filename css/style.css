@@ -80,9 +80,64 @@ article img {
 
 
 
-/*CSS del reister.html*/
+/*CSS del register.html*/
+.header-register {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
 
+.logo img {
+    height: 100px;
+    width: 250px;
+    
+}
 
+.nav-register ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nav-register li {
+    background-color: azure;
+    padding: 15px 45px;
+    margin: 10px 30px;
+    border-radius: 10px
+}
+
+.nav-register a {
+    color: blue;
+    text-decoration: none;
+}
+
+.section-register {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    margin: 0 350px;
+}
+
+.form-register {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 50px 20px; 
+}
+
+.checkbox-register {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px 50px 20px;
+}
 
 
 /*CSS del search-results.html*/

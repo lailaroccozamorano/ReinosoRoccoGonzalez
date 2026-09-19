@@ -10,48 +10,55 @@
     <title>Bookly-Registro</title>
 </head>
 <body>
-    <header>
-         <nav> 
-            <ul> 
-             <li><a href="./index.html">Home</a>|</li>
-             <li><a href="./login.html">Login</a>|</li>
+    <header class="header-register">
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo de Bookly">
+        </div>
+        <nav class="nav-register"> 
+            <ul>
+             <li><a href="./index.html">Home</a></li>
+             <li><a href="./login.html">Login</a></li>
              <li><a href="./product.html">Product</a></li>
-             <li><a href="./category.html">Category</a>|</li>
-             <li><a href="./register.html">Register</a>|</li>
-             <li><a href="./search-results.html">search-results</a>|</li>
+             <li><a href="./category.html">Category</a></li>
+             <li><a href="./register.html">Register</a></li>
+             <li><a href="./search-results.html">Search-results</a></li>
             </ul>
         </nav>
     </header>
+    
+    <section class="section-register">
     <form action="./register.html"  method="GET">
-    <section>
-        <div>
-            <label for="email">Email</label>
+    
+        <div class="form-register">
+            <label for="email">Email </label>
             <input id="email" type="email" name="email" value="">
         </div>
 
-        <div>
-            <label for="contraseña">Contraseña</label>
+        <div class="form-register">
+            <label for="contraseña">Contraseña </label>
             <input type="text" name="password" value="">
         </div>
 
-        <div>
-            <label for="repeat">Repetir contraseña</label>
+        <div class="form-register">
+            <label for="repeat">Repetir contraseña </label>
             <input id="repeat" type="password" name="repeat" value="">
         </div>
 
-        <div>
-            <button type="submit">Registrarme</button>
+        <div class="form-register">
+            <button type="submit">Registrarme </button>
         </div>
 
-        <div>
+        <div class="checkbox-register">
             <input type="checkbox" name="TyC" value="Terminos y Condiciones">
             <label for="TyC">Acepto términos y condiciones</label>  
         </div>
 
-        <p><a href="./login.html">Ya tengo una cuenta</a></p>
+        <p class="form-register"><a href="./login.html">Ya tengo una cuenta</a></p>
     
-    </section>
+    
     </form>
+    </section>
+    
 
     <footer>
         <p>Somos Laila G. Rocco Zamorano, M. Agustina González Müller y Sol Reinoso </p>
