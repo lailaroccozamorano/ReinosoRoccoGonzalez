@@ -21,7 +21,6 @@ body{
     background-image: url("../img/fondo.jpg");
     background-repeat: repeat;
     background-position: center;
-
     display: flex;
     flex-direction: column;
 }
@@ -30,8 +29,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+        background-color: rgb(206, 188, 166);
+    padding: 15px 30px;
 }
-
+.menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 header img {
     width: 150px;
 }
