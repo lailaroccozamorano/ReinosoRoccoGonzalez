@@ -82,7 +82,83 @@ article img {
 
 /*CSS del login.html*/
 
+.header-login {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 
+    padding: 10px;
+}
+
+.logo-login img {
+    height: 100px;
+    width: 250px;
+    
+}
+
+.nav-login ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nav-login li {
+    padding: 15px 45px;
+    margin: 10px 30px;
+
+    background-color: azure;
+    border-radius: 10px
+}
+
+.nav-login a {
+    color: blue;
+    text-decoration: none;
+}
+
+.section-login {
+    background-color: #fff;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 500px;
+    width: 500px;
+
+    margin: 30px auto 50px;
+}
+
+.section-login h1 {
+    padding-left: 50px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 50px 20px;
+}
+
+.error-login {
+    padding-left: 50px;
+}
+
+.checkbox-login {
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px 50px 20px;
+}
+
+.boton-form {
+    margin: 10px 50px;
+}
+
+.footer-login {
+    padding: 20px;
+}
 
 
 /*CSS del register.html*/
@@ -91,13 +167,13 @@ article img {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+
     padding: 10px;
 }
 
-.logo img {
+.logo-register img {
     height: 100px;
-    width: 250px;
-    
+    width: 250px;  
 }
 
 .nav-register ul{
@@ -107,9 +183,10 @@ article img {
 }
 
 .nav-register li {
-    background-color: azure;
     padding: 15px 45px;
     margin: 10px 30px;
+
+    background-color: azure;
     border-radius: 10px
 }
 
@@ -121,10 +198,12 @@ article img {
 .section-register {
     background-color: #fff;
     border-radius: 10px;
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+
     height: 500px;
     width: 500px;
     margin: 0 350px;
@@ -134,6 +213,7 @@ article img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+
     padding: 10px 50px 20px; 
 }
 
@@ -141,8 +221,12 @@ article img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
     padding: 10px 50px 20px;
 }
 
+.footer-register {
+    padding: 20px;
+}
 
 /*CSS del search-results.html*/
