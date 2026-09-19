@@ -23,52 +23,132 @@ body{
     background-position: center;
     display: flex;
     flex-direction: column;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    color:  rgb(71, 4, 4) ;
 }
 
 header{
     display: flex;
+    flex-direction: column;
+    background-color: rgb(206, 188, 166);
+    padding: 10px 15px;
+    margin-left: 8px;
+}
+.orden {
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-        background-color: rgb(206, 188, 166);
-    padding: 15px 30px;
+}
+.arriba {
+    display: flex;
+    justify-content:space-between;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+}
+.arriba a {
+    color: rgb(71, 4, 4) ;
+    margin-left: 8px;
 }
 .menu {
     display: flex;
     margin: 0;
     padding: 0;
 }
-header img {
-    width: 150px;
+.menu li {
+    margin-left: 20px;
 }
-
-nav ul {
+.menu li a {
+    color:rgb(71, 4, 4) ;
+    background-color: rgb(216, 207, 191);
+    padding: 6px 8px;
+    border-radius: 20px;
+}
+.buscador {
+    background-color:rgb(216, 207, 191);
+    border-radius: 20px;
+    padding: 4px 6px 4px 12px;
     display: flex;
+    align-items: center;
+    width: 250px;
+    margin: 0px 50px;
+}
+.buscador input{
+    background-color: transparent;
+    padding: 4px;
+    border: none;
+}
+.buscador button {
+    border: none;
+    background-color:rgb(244, 243, 241); ;
+    border-radius: 10px;
+    padding: 5px ;
+    color:rgb(71, 4, 4) ;
+
+}
+.orden img {
+    width: 150px;
 }
 
 main {
     display: flex;
+    padding: 20px;
 }
 
 aside {
     width: 250px;
+    background-color:rgb(216, 207, 191) ;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px 15px;
 }
-
+.categorias a {
+    color:  rgb(71, 4, 4) ;
+    font-size: 14px;
+}
 aside ul {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+aside h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 section div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 article {
-    width: 30%;
+    width: 17%;
+    background-color:rgb(216, 207, 191) ;
+    border-radius:20px ;
+    padding: 15px 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: rgb(71, 4, 4) 
+}    
+article a {
+    background-color: rgb(71, 4, 4)  ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 article img {
-    width: 90%;
+    width: 100%;
+    max-width: 90%;
+    height: 280px;
+    border-radius: 10px;
+    margin-bottom: 12px;
 }
 /*CSS del product.html*/
 
