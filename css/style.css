@@ -15,7 +15,7 @@ a{
    text-decoration: none;
 }
 
-/*CSS del index.html*/
+/*body y header para todos los html*/
 
 body{
     background-image: url("../img/fondo.jpg");
@@ -37,6 +37,8 @@ header{
     padding: 10px 15px;
     margin-left: 8px;
 }
+
+/*CSS del index.html*/
 .orden {
     display: flex;
     align-items: center;
@@ -118,13 +120,13 @@ aside h2 {
     margin-bottom: 15px;
 }
 
-section div {
+.section-index div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-article {
+.article-index {
     width: 17%;
     background-color:rgb(216, 207, 191) ;
     border-radius:20px ;
@@ -136,14 +138,14 @@ article {
     text-align: left;
     color: rgb(71, 4, 4) 
 }    
-article a {
+.article-index a {
     background-color: rgb(71, 4, 4)  ;
     color: #fff;
     border-radius: 5px;
     padding: 5px;
 }
 
-article img {
+.article-index img {
     width: 100%;
     max-width: 90%;
     height: 280px;
@@ -151,6 +153,57 @@ article img {
     margin-bottom: 12px;
 }
 /*CSS del product.html*/
+.main-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1-product {
+    background-color: rgb(216, 207, 191) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.section1-product img {
+    height: 400px;
+    width: 300px;
+    margin: 0 40px 0 0;
+}
+
+.infolibro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infolibro h1, p, h3, li{ 
+    padding: 9px 0;
+}
+
+.comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+
+}
+
+.comentarios article {
+    background-color: rgb(247, 246, 246);
+    border-radius: 10px;
+    width: 360px;
+    margin: 0 23px;
+    border: solid 3px rgb(224, 201, 166);
+}
+
+
+
 
 
 
@@ -161,40 +214,6 @@ article img {
 
 
 /*CSS del login.html*/
-
-.header-login {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-
-    padding: 10px;
-}
-
-.logo-login img {
-    height: 100px;
-    width: 250px;
-    
-}
-
-.nav-login ul{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.nav-login li {
-    padding: 15px 45px;
-    margin: 10px 30px;
-
-    background-color: azure;
-    border-radius: 10px
-}
-
-.nav-login a {
-    color: blue;
-    text-decoration: none;
-}
 
 .section-login {
     background-color: #fff;
@@ -242,38 +261,6 @@ article img {
 
 
 /*CSS del register.html*/
-.header-register {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-
-    padding: 10px;
-}
-
-.logo-register img {
-    height: 100px;
-    width: 250px;  
-}
-
-.nav-register ul{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.nav-register li {
-    padding: 15px 45px;
-    margin: 10px 30px;
-
-    background-color: azure;
-    border-radius: 10px
-}
-
-.nav-register a {
-    color: blue;
-    text-decoration: none;
-}
 
 .section-register {
     background-color: #fff;
@@ -286,7 +273,7 @@ article img {
 
     height: 500px;
     width: 500px;
-    margin: 0 350px;
+    margin: 50px 350px;
 }
 
 .form-register {
