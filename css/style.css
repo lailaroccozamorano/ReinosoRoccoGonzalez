@@ -35,7 +35,7 @@ header{
     flex-direction: column;
     background-color: rgb(206, 188, 166);
     padding: 10px 15px;
-    margin-left: 8px;
+    width: 100%;
 }
 
 /*CSS del index.html*/
@@ -96,13 +96,15 @@ header{
 main {
     display: flex;
     padding: 20px;
+    align-items: flex-start;
 }
 
 aside {
     width: 250px;
     background-color:rgb(216, 207, 191) ;
-    border-radius: 0px 0px 20px 20px;
+    border-radius:20px ;
     padding: 20px 15px;
+    margin-right: 20px;
 }
 .categorias a {
     color:  rgb(71, 4, 4) ;
@@ -111,12 +113,10 @@ aside {
 aside ul {
     display: flex;
     flex-direction: column;
-    padding: 0;
-    margin: 0;
 }
+
 aside h2 {
     font-size: 18px;
-    margin-top: 0;
     margin-bottom: 15px;
 }
 
@@ -151,6 +151,7 @@ aside h2 {
     height: 280px;
     border-radius: 10px;
     margin-bottom: 12px;
+    align-self: center;
 }
 /*CSS del product.html*/
 .main-product {
@@ -202,7 +203,9 @@ aside h2 {
     border: solid 3px rgb(224, 201, 166);
 }
 
-
+footer {
+    padding: 20px;
+}
 
 
 
@@ -254,11 +257,6 @@ aside h2 {
 .boton-form {
     margin: 10px 50px;
 }
-
-.footer-login {
-    padding: 20px;
-}
-
 
 /*CSS del register.html*/
 
