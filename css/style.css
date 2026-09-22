@@ -234,14 +234,16 @@ footer {
 .section-category {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .section-category div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.section-category h2 {
+.section-category h1 {
     margin: 20px;
 }
 
@@ -393,3 +395,33 @@ footer {
     padding: 5px;
     border-radius: 5px;
 }
+
+/*Responsive web design del index.html*/
+
+
+
+/*Responsive web design del product.html*/
+
+
+
+
+/*Responsive web design del category.html*/
+@media (max-width: 768px) {
+    
+}
+
+
+
+/*Responsive web design del login.html*/
+
+
+
+
+
+/*Responsive web design del register.html*/
+
+
+
+
+
+/*Responsive web design del serch-results.html*/
