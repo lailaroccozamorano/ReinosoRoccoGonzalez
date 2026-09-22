@@ -37,6 +37,24 @@ header{
     padding: 10px 15px;
     width: 100%;
 }
+footer {
+    padding: 20px;
+    background-color:  rgb(206, 188, 166);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.abajo img {
+    width: 150px;
+}
+
+.medio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
 /*CSS del index.html*/
 .orden {
@@ -209,6 +227,14 @@ footer {
     border: solid 3px rgb(224, 201, 166);
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> 83b4fc4bccb8bd7406369b00b95a8f3502fc44c5
 
 /*CSS del category.html*/
 
