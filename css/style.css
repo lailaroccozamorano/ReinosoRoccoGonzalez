@@ -225,6 +225,7 @@ footer {
     width: 360px;
     margin: 0 23px;
     border: solid 3px rgb(224, 201, 166);
+    padding: 15px;
 }
 
 
@@ -239,6 +240,10 @@ footer {
 .section-category div {
     display: flex;
     flex-wrap: wrap;
+}
+
+.section-category h1 {
+    margin: 20px;
 }
 
 .section-category h2 {
