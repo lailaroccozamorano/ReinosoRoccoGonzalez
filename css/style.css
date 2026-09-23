@@ -118,11 +118,11 @@ main {
 }
 
 aside {
-    width: 250px;
+    width: 180px;
     background-color:rgb(216, 207, 191) ;
     border-radius:20px ;
-    padding: 20px 15px;
-    margin-right: 20px;
+    padding: 25px 10px;
+    margin: 30px 20px;
 }
 .categorias a {
     color:  rgb(71, 4, 4) ;
@@ -145,7 +145,7 @@ aside h2 {
 }
 
 .article-index {
-    width: 17%;
+    width: 18%;
     background-color:rgb(216, 207, 191) ;
     border-radius:20px ;
     padding: 15px 10px;
@@ -181,6 +181,12 @@ footer {
 .main-product {
     display: flex;
     flex-direction: column;
+}
+
+.producto {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .section1-product {
