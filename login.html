@@ -12,40 +12,25 @@
 <body>
     
     <header>
-        <div class="arriba">
-            <a href="./login.html">Login</a>
-            <a href="./register.html">Register</a>
-        </div>
-        <div class="orden">
-         <img src="./img/logo.png" alt="logo de pagina">
-
-         <nav> 
-            <ul class="menu"> 
-             <li ><a href="./index.html">Home</a></li>
-             <li><a href="./product.html">Product</a></li>
-             <li><a href="./category.html">Category</a></li>
-             <li><a href="./search-results.html">Search-results</a></li>
+        <nav>
+            <ul class="arriba">
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./register.html">Register</a></li>
             </ul>
-         </nav>
+        </nav>
+        <div class="orden">
+            <a href="./index.html">
+                <img src="./img/logo.png" alt="logo de pagina">
+            </a>
 
+            <form action="./search-results.html" method="get" class="buscador">
+                <input type="search" placeholder="buscar" name="q">
+                <button type="submit">buscar</button>
+            </form>
         </div>
     </header>
 
     <main>
-        <aside>
-            <h2>Categorias</h2>
-            <nav>
-                <ul class="categorias">
-                    <li ><a href="./category.html">Ciencia Ficcion</a></li>
-                    <li ><a href="./category.html">Romance Juvenil</a></li>
-                    <li><a href="./category.html">Clasicos de la literatura</a></li>
-                    <li><a href="./category.html">Ficcion Contemponarea</a></li>
-                    <li><a href="./category.html">Suspenso y Thiller</a></li>
-                    <li><a href="./category.html">Historias y Biografias</a></li>
-                    <li><a href="./category.html">Desarrollo personal</a></li>
-                </ul>
-            </nav>
-        </aside>
         <section class="section-login">
 
             <h1>BIENVENIDO</h1>
@@ -105,8 +90,20 @@
         </section>
     </main>
 
-    <footer class="footer-login">
-        <p>Somos Laila G. Rocco Zamorano, M. Agustina González Müller y Sol Reinoso </p>
+    <footer >
+         <div class="abajo">
+        <img src="./img/logo.png" alt="">
+        <h3>Tu librería digital preferida. Descubre historias increíbles a un clic de distancia. </h3>
+        </div>
+
+        <div class="medio">
+        <h3>Desarrollado por:</h3>
+        <ul>
+            <li>Laila G. Rocco Zamorano</li>
+            <li>M. Agustina Gonzalez Muller</li>
+            <li>Sol Reinoso</li>
+        </ul>
+        </div>
     </footer>
     
 
