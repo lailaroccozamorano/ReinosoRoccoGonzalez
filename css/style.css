@@ -247,19 +247,17 @@ footer {
 .section-category div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .section-category h1 {
     margin: 20px;
 }
 
-.section-category h1 {
-    margin: 20px;
-}
+
 
 .article-category {
-    width: 23%;
+    width: 30%;
     background-color: rgb(216, 207, 191);
     border-radius: 20px;
     padding: 15px;
@@ -419,6 +417,181 @@ footer {
 /*Responsive web design del category.html*/
 @media (max-width: 768px) {
     
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .arriba {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .orden {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 150px;
+        
+    }
+
+    .buscador {
+        width: 90%;
+        margin: 10px 0;
+        justify-content: center;
+    }
+
+    .orden {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+  
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside {
+        width: 90%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .section-category h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .section-category div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .article-category {
+        width: 40%;
+        margin: 10px;
+    }
+
+    .article-category img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    header {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .arriba {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .orden {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .orden img {
+        width: 100px ;
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .menu li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .buscador {
+        width: 90px;
+        margin: 10px 0;
+        justify-content: center;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside {
+        width: 90%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .section-category {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-category h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .section-category div {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .article-category {
+        width: 85%;
+        margin: 10px 0;
+    }
+
+    .article-category img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+    
+
+
+
+
+
+
 }
 
 
