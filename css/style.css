@@ -359,6 +359,10 @@ aside h2 {
     margin: 20px;
 }
 
+.section-search h3 {
+    margin: 15px 0;
+}
+
 .article-search {
     width: 23%;
     background-color: rgb(216, 207, 191);
@@ -386,18 +390,10 @@ aside h2 {
     border-radius: 5px;
 }
 
-/*Responsive web design del index.html*/
 
-
-
-/*Responsive web design del product.html*/
-
-
-
-
-/*Responsive web design del category.html*/
 @media (max-width: 768px) {
     
+    /*Responsive web design del header,aside y footer de todos los index (768px)*/
     header {
         flex-direction: column;
         align-items: center;
@@ -432,18 +428,56 @@ aside h2 {
         width: 120px;
         margin-bottom: 10px;
     }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
   
     main {
         flex-direction: column;
         align-items: center;
     }
-
+    
     aside {
+        align-items: center;
         width: 90%;
         margin: 10px 0;
         text-align: center;
     }
 
+    /*Responsive web design del index.html (768px)*/
+    
+    .section-index h2 {
+        text-align: center;
+        margin: 5px;
+    }
+
+    .section-index div {
+        justify-content: center;
+    }
+
+    .article-index {
+        width: 40%;
+        margin: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .article-index img {
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    /*Responsive web design del product.html (768px)*/
+    
+    
+    
+    
+    
+    /*Responsive web design del category.html (768px)*/
     .section-category h1 {
         font-size: 28px;
         margin-bottom: 20px;
@@ -465,16 +499,23 @@ aside h2 {
         height: auto;
     }
 
-    footer {
-        flex-direction: column;
-        text-align: center;
-        font-size: 14px;
-    }
+    /*Responsive web design del login.html (768px)*/
+
+
+
+    /*Responsive web design del register.html (768px)*/
+
+
+
+
+    /*Responsive web design del search-results.html (768px)*/
+   
 
 }
 
 @media (max-width: 420px) {
 
+    /*Responsive web design del header,aside y footer de todos los index (420px)*/
     header {
         flex-direction: column-reverse;
         align-items: center;
@@ -528,6 +569,30 @@ aside h2 {
         text-align: center;
     }
 
+    /*Responsive web design del index.html (420px)*/
+    .section-index div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article-index {
+        width: 85%;
+        margin: 10px 0;
+    }
+
+    .article-index img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /*Responsive web design del product.html (420px)*/
+
+
+
+
+
+    /*Responsive web design del category.html (420px)*/
     .section-category {
         flex-direction: column;
         align-items: center;
@@ -561,6 +626,20 @@ aside h2 {
         font-size: 12px;
     }
 
+    /*Responsive web design del login.html (420px)*/
+
+
+
+
+
+   /*Responsive web design del register.html (420px)*/
+
+
+
+
+
+   /*Responsive web design del serch-results.html (420px)*/
+
 
 
 
@@ -577,16 +656,3 @@ aside h2 {
 
 
 
-/*Responsive web design del login.html*/
-
-
-
-
-
-/*Responsive web design del register.html*/
-
-
-
-
-
-/*Responsive web design del serch-results.html*/
