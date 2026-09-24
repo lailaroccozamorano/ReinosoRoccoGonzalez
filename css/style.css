@@ -316,15 +316,19 @@ aside h2 {
     border-radius: 10px;
 
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
 
     height: 500px;
     width: 500px;
-    margin: 50px 350px;
+    margin: 30px 50px;
 }
-
+.main-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 .form-register {
     display: flex;
     flex-wrap: wrap;
@@ -419,11 +423,18 @@ aside h2 {
     }
 
     .buscador {
-        width: 90%;
-        margin: 10px 0;
-        justify-content: center;
+        width: 100%;
+        margin: 10px auto;
+        padding: 4px 6px 4px 12px;
     }
-
+    .buscador input {
+        width: 65%;
+        font-size: 13px;
+    }
+    .buscador button {
+        width: 40%;
+        padding: 5px 0;
+    }
     .orden {
         width: 120px;
         margin-bottom: 10px;
@@ -499,14 +510,55 @@ aside h2 {
         height: auto;
     }
 
+    /*Responsive web design del register.html (768px)*/
+    .main-register {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .section-register {
+        width: 85%;
+        max-width: 450px;
+        height: auto;
+        margin: 20px 0;
+        padding: 20px 0;
+    }
+    .section-register h1 {
+        text-align: center;
+        padding-left: 0;
+    }
+
     /*Responsive web design del login.html (768px)*/
 
-
-
-    /*Responsive web design del register.html (768px)*/
-
-
-
+    .main-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .section-login {
+        width: 85%;
+        max-width: 450px;
+        height: auto;
+        margin: 20px 0;
+        padding: 20px 0;
+    }
+    .section-login h1 {
+        text-align: center;
+        padding-left: 0;
+    }
+    .form-login,
+    .checkbox-login {
+     padding: 10px 25px;
+    }
+    .error-login {
+      margin-bottom: 15px;
+      padding: 10px 0;
+    }
+    
 
     /*Responsive web design del search-results.html (768px)*/
    
