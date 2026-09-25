@@ -431,9 +431,10 @@ aside h2 {
         width: 65%;
         font-size: 13px;
     }
+    
     .buscador button {
-        width: 40%;
-        padding: 5px 0;
+        min-width: 50px;
+        padding: 5px;
     }
     .orden {
         width: 120px;
@@ -484,7 +485,44 @@ aside h2 {
     
     /*Responsive web design del product.html (768px)*/
     
+    .main-product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
+    aside {
+        width: auto;
+        margin: 10px 20px;
+        padding: 20px 15px;
+    }
+
+    .section1-product {
+        width: 80%;
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .section1-product img {
+        width: 60%;
+        height: auto;
+        margin: 0 0 20px 0;
+    }
+
+    .infolibro {
+        width: 90%;
+    }
+
+    .comentarios {
+        justify-content: center;
+    }
+
+    .comentarios article {
+        width: 40%;
+        margin: 10px;
+    }
     
     
     
@@ -561,7 +599,23 @@ aside h2 {
     
 
     /*Responsive web design del search-results.html (768px)*/
-   
+   .section-search {
+        justify-content: center;
+    }
+
+    .section-search div {
+        justify-content: center;
+    }
+
+    .article-search {
+        width: 40%;
+        margin: 10px;
+    }
+
+    .article-search img {
+        width: 100%;
+        height: auto;
+    }
 
 }
 
@@ -609,6 +663,14 @@ aside h2 {
         margin: 10px 0;
         justify-content: center;
     }
+    .buscador input {
+        width: 65%;
+    }
+
+    .buscador button {
+        min-width: 50px;
+        padding: 5px;
+    }
 
     main {
         flex-direction: column;
@@ -639,7 +701,53 @@ aside h2 {
 
 
     /*Responsive web design del product.html (420px)*/
+    .main-product {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    aside {
+        width: 80%;
+        margin: 10px;
+    }
+
+    .section1-product {
+        width: 80%;
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buscador {
+        width: 80%;
+    }
+
+    .buscador input {
+        width: 70%;
+    }
+
+    .section1-product img {
+        width: 80%;
+        height: auto;
+        margin: 0 0 15px 0;
+    }
+
+    .infolibro {
+        width: 100%;
+    }
+
+    .infolibro h1 {
+        font-size: 24px;
+    }
+
+    .comentarios {
+        flex-direction: column;
+    }
+
+    .comentarios article {
+        width: 85%;
+        margin: 10px 0;
+    }
 
 
 
@@ -692,16 +800,30 @@ aside h2 {
 
    /*Responsive web design del serch-results.html (420px)*/
 
+    .section-search {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .section-search div {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .section-search h2 {
+        text-align: center;
+        margin: 15px;
+    }
 
+    .article-search {
+        width: 85%;
+        margin: 10px 0;
+    }
 
-
-    
-
-
-
-
+    .article-search img {
+        width: 100%;
+        height: auto;
+    }
 
 
 }
