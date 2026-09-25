@@ -179,6 +179,7 @@ aside h2 {
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
+    text-align: center;
     padding: 20px;
     margin: 20px;
     
