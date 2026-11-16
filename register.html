@@ -15,8 +15,10 @@
     <header>
         <nav>
             <ul class="arriba">
-                <li><a href="./login.html">Login</a></li>
-                <li><a href="./register.html">Register</a></li>
+                <li class="menu-login"><a href="./login.html">Login</a></li>
+                <li class="menu-registro"><a href="./register.html">Register</a></li>
+                <li class="saludo-usuario"></li>
+                <li class="menu-logout"><a href="#" class="logout">Logout</a> </li>
             </ul>
         </nav>
         <div class="orden">
@@ -35,7 +37,7 @@
         
         <section class="section-register">
 
-            <form action="./login.html" method="GET">
+            <form class="formularioregistro" action="./login.html" method="GET">
                 <div class="form-register">
                     <h1>REGISTRATE</h1>
                 </div>
@@ -43,16 +45,19 @@
                 <div class="form-register">
                     <label for="email">Email </label>
                     <input id="email" type="email" name="email" value="" placeholder="Email">
+                    <span class="error-email"></span>
                 </div>
 
                 <div class="form-register">
                     <label for="password">Contraseña </label>
                     <input id="password" type="password" name="password" value="" placeholder="Contraseña">
+                    <span class="error-password"></span>
                 </div>
 
                 <div class="form-register">
                     <label for="repeat">Repetir contraseña </label>
                     <input id="repeat" type="password" name="repeat" value="" placeholder="Repetir contraseña">
+                    <span class="error-repeat"></span>
                 </div>
 
                 <div class="form-register">
@@ -89,8 +94,10 @@
         </div>
     </footer>
 
-    <script src="./register.html"></script>
-
+    <script src="./js/register.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/saludo.js"></script>
+    <script src="./js/logout.js"></script>
 </body>
 
 </html>

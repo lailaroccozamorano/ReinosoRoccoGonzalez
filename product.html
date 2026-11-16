@@ -15,8 +15,10 @@
     <header>
         <nav>
             <ul class="arriba">
-                <li><a href="./login.html">Login</a></li>
-                <li><a href="./register.html">Register</a></li>
+                <li class="menu-login"><a href="./login.html">Login</a></li>
+                <li class="menu-registro"><a href="./register.html">Register</a></li>
+                <li class="saludo-usuario"></li>
+                <li class="menu-logout"><a href="#" class="logout">Logout</a> </li>
             </ul>
         </nav>
         <div class="orden">
@@ -50,21 +52,21 @@
 
             <section class="section1-product">
                 <div>
-                    <img src="./img/Harry-potter.jpg" alt="Imagen del producto">
+                    <img class="imagproducto" src="./img/Harry-potter.jpg" alt="Imagen del producto">
                 </div>
 
                 <div class="infolibro">
-                    <h1>Harry Potter y la piedra filosofal</h1>
-                    <p> Precio: $49.000</p>
-                    <p> Editorial: Salamandra </p>
-                    <p>Categoria: <a href="./category.html">Fantasia y Ciencia Ficción</a></p>
-                    <p>Un niño huérfano descubre en su cumpleaños número once que es un mago y es invitado a estudiar en
+                    <h1 class="nombreproducto">Harry Potter y la piedra filosofal</h1>
+                    <p class="precioproducto"> Precio: $49.000</p>
+                    <p class="marcaproducto"> Marca: Salamandra </p>
+                    <p>Categoria: <a class="categoriaproducto" href="./category.html">Fantasia y Ciencia Ficción</a></p>
+                    <p class="descripcionproducto">Un niño huérfano descubre en su cumpleaños número once que es un mago y es invitado a estudiar en
                         el Colegio Hogwarts de Magia y Hechicería.</p>
-                    <p>¡Ultimas 10 unidades!</p>
+                    <p class="stockproducto">¡Ultimas 10 unidades!</p>
 
                     <div>
                         <h2>Etiquetas</h2>
-                        <ul>
+                        <ul class="tagsproducto">
                             <li><a href="#">Magia</a></li>
                             <li><a href="#">Hogwarts</a></li>
                             <li><a href="#">Clasico</a></li>
@@ -127,6 +129,8 @@
         </div>
     </footer>
 
-    <script src="./product.html"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/saludo.js"></script>
+    <script src="./js/logout.js"></script>
 </body>
 </html>
