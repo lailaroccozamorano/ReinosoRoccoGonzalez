@@ -49,12 +49,12 @@
             </nav>
         </aside>
         <section class="section-search">
-            <h2>Resultados de tu búsqueda:</h2>
-            <h3>Harry potter</h3>
-            <h2>Los resultados de tu busqueda no han sido encontrados</h2>
-            <div>
+            <h2>Resultados de tu búsqueda: <span id="terminoBuscado"></span></h2>
+            <h3 id="sinResultados"></h3>
+            <!--<h2>Los resultados de tu busqueda no han sido encontrados</h2>-->
+            <div id="resultadosBusqueda">
 
-                <article class="article-search">
+                <!--<article class="article-search">
                     <img src="./img/Harry-potter.jpg" alt="Imagen del Producto">
                     <h3>Harry Potter y la piedra filosofal</h3>
                     <p>J.K.Rowling</p>
@@ -212,12 +212,9 @@
                     <p>Pablo Vierci</p>
                     <p>$55.900</p>
                     <a href="./product.html">Ver detalles</a>
-                </article>
+                </article> -->
 
             </div>
-
-            <p>No se encontraron resultados para tu búsqueda</p>
-
 
         </section>
     </main>
@@ -239,7 +236,6 @@
     </footer>
 
     <script src="./js/search-results.js"></script>
-    <script src="./js/product.js"></script>
     <script src="./js/saludo.js"></script>
     <script src="./js/logout.js"></script>
 </body>
