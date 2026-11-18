@@ -231,7 +231,7 @@ aside h2 {
 .section-category div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .section-category h1 {

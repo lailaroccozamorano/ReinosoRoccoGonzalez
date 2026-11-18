@@ -1,11 +1,14 @@
 let queryString = location.search;
 let queryStringObj = new URLSearchParams (queryString);
 let termino = queryStringObj.get ("q");
-let spanTermino = document.querySelector ("#terminoBuscado");
-let sinresults = document.querySelector ("#sinResultado");
+let titulo = document.querySelector ("#tituloBusqueda")
+let sinresults = document.querySelector ("#sinResultados");
 let conresults = document.querySelector ("#resultadosBusqueda");
 
-spanTermino.innerText = termino;
+if (termino == "") {
+    titulo.innerText = "";
+    sinresults.innerText = "No hay resultados para el término ingresado.";
+} else {
 
 fetch (`https://dummyjson.com/products/search?q=${termino}`)
     .then(function (response) {
@@ -15,9 +18,10 @@ fetch (`https://dummyjson.com/products/search?q=${termino}`)
      .then (function(data) {
         let productos = data.products;
 
-        if (productos.length == null) {
+        if (productos.length === 0) {
             sinresults.innerText = `No hay resultados para el término: ${termino}`
         } else {
+            titulo.innerText = `Resultados de tu búsqueda: ${termino}`
 
             for (let i=0;  i< productos.length; i++ ) {
                  conresults.innerHTML += `
@@ -30,9 +34,11 @@ fetch (`https://dummyjson.com/products/search?q=${termino}`)
                     </article>
                 `;
             }
+            
         }
     })
 
     .catch(function (error){
         console.log("El error es:" + error); 
     });
+}
