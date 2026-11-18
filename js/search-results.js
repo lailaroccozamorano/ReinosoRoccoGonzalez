@@ -5,10 +5,13 @@ let titulo = document.querySelector ("#tituloBusqueda")
 let sinresults = document.querySelector ("#sinResultados");
 let conresults = document.querySelector ("#resultadosBusqueda");
 
-if (termino == "") {
+if (termino == "" || termino.length <= 3) {
     titulo.innerText = "";
-    sinresults.innerText = "No hay resultados para el término ingresado.";
-} else {
+    sinresults.innerText = "Debe ingresar al menos tres carácteres";
+} 
+    
+
+else{
 
 fetch (`https://dummyjson.com/products/search?q=${termino}`)
     .then(function (response) {
